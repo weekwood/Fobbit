@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50D49E5B1A5BE61100546A31 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D49E5A1A5BE61100546A31 /* HomeViewController.swift */; };
+		50EB8FFA1A5978AC00ED2612 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB8FF91A5978AC00ED2612 /* SettingController.swift */; };
 		81C3DBC28317055482FA67D5 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = DDCFCF9E8E3AC9D0B6740293 /* Main.storyboard */; };
 		AACD880243B76658BE8EB35B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0958C9C728900B3BF221D0 /* Images.xcassets */; };
 		AEB7EA825863C1D6D0F529FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFAA3BAAC2B87D45C628C75 /* AppDelegate.swift */; };
@@ -32,6 +34,8 @@
 		3DDF88CEA09173C9708D5526 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		3F093569A01A5BADF532EEC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4F94175C788E44A4386930CB /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		50D49E5A1A5BE61100546A31 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		50EB8FF91A5978AC00ED2612 /* SettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 		7516AE9154BDE83F80F8CB2A /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B0958C9C728900B3BF221D0 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AE402B6E25F81005362A6989 /* Fobbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fobbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				1FFAA3BAAC2B87D45C628C75 /* AppDelegate.swift */,
+				50EB8FF91A5978AC00ED2612 /* SettingController.swift */,
+				50D49E5A1A5BE61100546A31 /* HomeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -379,6 +385,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D49E5B1A5BE61100546A31 /* HomeViewController.swift in Sources */,
+				50EB8FFA1A5978AC00ED2612 /* SettingController.swift in Sources */,
 				AEB7EA825863C1D6D0F529FC /* AppDelegate.swift in Sources */,
 				81C3DBC28317055482FA67D5 /* Main.storyboard in Sources */,
 				F5802EFF87CF24BBDDBF97F7 /* LaunchScreen.xib in Sources */,
